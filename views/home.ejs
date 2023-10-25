@@ -1,0 +1,15 @@
+<h1>Hello world</h1>
+<%= JSON.stringify(data) %>
+<p style="background-color: aqua;">Hei Y</p>
+
+<form action="/api/v1/actors" method="post" enctype="multipart/form-data">
+  <label for="name">Name</label>
+  <input name="name" type="text">
+  <br>
+
+  <label for="image">Image</label>
+  <input name="image" type="file">
+  <br>
+
+  <input type="submit" value="Upload">
+</form>
